@@ -7,17 +7,35 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    var musicPlayer: AVAudioPlayer!
 
+    @IBOutlet weak var highLevelLbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+        do {
+            let resourcePath = NSBundle.mainBundle().pathForResource("cave-music", ofType: "mp3")!
+            let url = NSURL(fileURLWithPath: resourcePath)
+            try musicPlayer = AVAudioPlayer(contentsOfURL: url)
+            
+            musicPlayer.volume = 0.5
+            musicPlayer.numberOfLoops = -1
+            musicPlayer.prepareToPlay()
+            musicPlayer.play()
+            
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        highLevelLbl.text = "\(Game().highLevel)"
     }
 
 

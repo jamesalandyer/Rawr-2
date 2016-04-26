@@ -7,14 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3922741CCD3CC600B4DFB6 /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3922731CCD3CC600B4DFB6 /* StoreVC.swift */; };
+		2B3922761CCD3CE600B4DFB6 /* RestartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3922751CCD3CE600B4DFB6 /* RestartVC.swift */; };
+		2B3922781CCD3D1000B4DFB6 /* BossVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3922771CCD3D1000B4DFB6 /* BossVC.swift */; };
+		2B39227C1CCD454500B4DFB6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39227B1CCD454500B4DFB6 /* CustomButton.swift */; };
+		2B39227E1CCD45D700B4DFB6 /* CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39227D1CCD45D700B4DFB6 /* CAGradientLayer.swift */; };
+		2B3922801CCD87DF00B4DFB6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39227F1CCD87DF00B4DFB6 /* Game.swift */; };
+		2B3922841CCD880A00B4DFB6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3922831CCD880A00B4DFB6 /* Player.swift */; };
+		2B3922881CCD885B00B4DFB6 /* Golem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3922871CCD885B00B4DFB6 /* Golem.swift */; };
+		2B39228A1CCD886D00B4DFB6 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3922891CCD886D00B4DFB6 /* Mouse.swift */; };
+		2B39228C1CCD887B00B4DFB6 /* BlueSnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39228B1CCD887B00B4DFB6 /* BlueSnail.swift */; };
+		2B39228E1CCD888700B4DFB6 /* Mole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39228D1CCD888700B4DFB6 /* Mole.swift */; };
+		2B3922941CCDABDA00B4DFB6 /* CharacterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3922931CCDABDA00B4DFB6 /* CharacterImg.swift */; };
+		2B3922961CCDC81A00B4DFB6 /* PinkSnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3922951CCDC81A00B4DFB6 /* PinkSnail.swift */; };
+		2B39229A1CD00C9300B4DFB6 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B3922991CD00C9300B4DFB6 /* cave-music.mp3 */; };
+		2B3922A31CD0109D00B4DFB6 /* digi_warn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B3922A11CD0109D00B4DFB6 /* digi_warn.wav */; };
+		2B3922A41CD0109D00B4DFB6 /* digi_welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B3922A21CD0109D00B4DFB6 /* digi_welcome.wav */; };
+		2B3922A81CD012AD00B4DFB6 /* etc_trash_bin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B3922A71CD012AD00B4DFB6 /* etc_trash_bin.wav */; };
+		2B3922AA1CD014A000B4DFB6 /* music_timpani_error_05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B3922A91CD014A000B4DFB6 /* music_timpani_error_05.wav */; };
+		2B3922AC1CD01A3F00B4DFB6 /* music_vibelong_chord_up.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B3922AB1CD01A3F00B4DFB6 /* music_vibelong_chord_up.wav */; };
+		2B3922AE1CD01A7400B4DFB6 /* pop_digi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B3922AD1CD01A7400B4DFB6 /* pop_digi.wav */; };
 		2BAD07ED1CCBEA52005DF214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD07EC1CCBEA52005DF214 /* AppDelegate.swift */; };
 		2BAD07EF1CCBEA52005DF214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD07EE1CCBEA52005DF214 /* ViewController.swift */; };
 		2BAD07F21CCBEA52005DF214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD07F01CCBEA52005DF214 /* Main.storyboard */; };
 		2BAD07F41CCBEA52005DF214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD07F31CCBEA52005DF214 /* Assets.xcassets */; };
 		2BAD07F71CCBEA52005DF214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD07F51CCBEA52005DF214 /* LaunchScreen.storyboard */; };
+		2BCFE2F71CCBEC630073D4B6 /* CFRockAge-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BCFE2F61CCBEC630073D4B6 /* CFRockAge-Regular.ttf */; };
+		2BCFE2FE1CCBF3C70073D4B6 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCFE2FD1CCBF3C70073D4B6 /* GameVC.swift */; };
+		4D7BD467A09CE8ABA13659F6 /* Pods_Rawr_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFE71B318A9FB7A2E516B11 /* Pods_Rawr_2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BFE71B318A9FB7A2E516B11 /* Pods_Rawr_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rawr_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3922731CCD3CC600B4DFB6 /* StoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		2B3922751CCD3CE600B4DFB6 /* RestartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestartVC.swift; sourceTree = "<group>"; };
+		2B3922771CCD3D1000B4DFB6 /* BossVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossVC.swift; sourceTree = "<group>"; };
+		2B39227B1CCD454500B4DFB6 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		2B39227D1CCD45D700B4DFB6 /* CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayer.swift; sourceTree = "<group>"; };
+		2B39227F1CCD87DF00B4DFB6 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2B3922831CCD880A00B4DFB6 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2B3922871CCD885B00B4DFB6 /* Golem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Golem.swift; sourceTree = "<group>"; };
+		2B3922891CCD886D00B4DFB6 /* Mouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mouse.swift; sourceTree = "<group>"; };
+		2B39228B1CCD887B00B4DFB6 /* BlueSnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueSnail.swift; sourceTree = "<group>"; };
+		2B39228D1CCD888700B4DFB6 /* Mole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mole.swift; sourceTree = "<group>"; };
+		2B3922931CCDABDA00B4DFB6 /* CharacterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterImg.swift; sourceTree = "<group>"; };
+		2B3922951CCDC81A00B4DFB6 /* PinkSnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkSnail.swift; sourceTree = "<group>"; };
+		2B3922991CD00C9300B4DFB6 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		2B3922A11CD0109D00B4DFB6 /* digi_warn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = digi_warn.wav; sourceTree = "<group>"; };
+		2B3922A21CD0109D00B4DFB6 /* digi_welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = digi_welcome.wav; sourceTree = "<group>"; };
+		2B3922A71CD012AD00B4DFB6 /* etc_trash_bin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = etc_trash_bin.wav; sourceTree = "<group>"; };
+		2B3922A91CD014A000B4DFB6 /* music_timpani_error_05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music_timpani_error_05.wav; sourceTree = "<group>"; };
+		2B3922AB1CD01A3F00B4DFB6 /* music_vibelong_chord_up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music_vibelong_chord_up.wav; sourceTree = "<group>"; };
+		2B3922AD1CD01A7400B4DFB6 /* pop_digi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop_digi.wav; sourceTree = "<group>"; };
 		2BAD07E91CCBEA52005DF214 /* Rawr 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rawr 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAD07EC1CCBEA52005DF214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BAD07EE1CCBEA52005DF214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +66,10 @@
 		2BAD07F31CCBEA52005DF214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BAD07F61CCBEA52005DF214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BAD07F81CCBEA52005DF214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCFE2F61CCBEC630073D4B6 /* CFRockAge-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CFRockAge-Regular.ttf"; sourceTree = "<group>"; };
+		2BCFE2FD1CCBF3C70073D4B6 /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		639C90B35BC3771E3751F0F6 /* Pods-Rawr 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rawr 2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rawr 2/Pods-Rawr 2.debug.xcconfig"; sourceTree = "<group>"; };
+		756680429037323B16E1902C /* Pods-Rawr 2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rawr 2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rawr 2/Pods-Rawr 2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7BD467A09CE8ABA13659F6 /* Pods_Rawr_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +89,8 @@
 			children = (
 				2BAD07EB1CCBEA52005DF214 /* Rawr 2 */,
 				2BAD07EA1CCBEA52005DF214 /* Products */,
+				71CA10992617EE0AFC2CF1A9 /* Pods */,
+				8DDC63AA8854C28EEC56C18E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,85 @@
 		2BAD07EB1CCBEA52005DF214 /* Rawr 2 */ = {
 			isa = PBXGroup;
 			children = (
+				2BCFE2FC1CCBF3A50073D4B6 /* Model */,
+				2BCFE2FB1CCBF39E0073D4B6 /* View */,
+				2BCFE2F91CCBF3820073D4B6 /* Controller */,
+				2BCFE2F81CCBF3780073D4B6 /* Resources */,
 				2BAD07EC1CCBEA52005DF214 /* AppDelegate.swift */,
-				2BAD07EE1CCBEA52005DF214 /* ViewController.swift */,
 				2BAD07F01CCBEA52005DF214 /* Main.storyboard */,
 				2BAD07F31CCBEA52005DF214 /* Assets.xcassets */,
 				2BAD07F51CCBEA52005DF214 /* LaunchScreen.storyboard */,
 				2BAD07F81CCBEA52005DF214 /* Info.plist */,
 			);
 			path = "Rawr 2";
+			sourceTree = "<group>";
+		};
+		2BCFE2F81CCBF3780073D4B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B3922AD1CD01A7400B4DFB6 /* pop_digi.wav */,
+				2B3922AB1CD01A3F00B4DFB6 /* music_vibelong_chord_up.wav */,
+				2B3922A91CD014A000B4DFB6 /* music_timpani_error_05.wav */,
+				2B3922A71CD012AD00B4DFB6 /* etc_trash_bin.wav */,
+				2B3922A11CD0109D00B4DFB6 /* digi_warn.wav */,
+				2B3922A21CD0109D00B4DFB6 /* digi_welcome.wav */,
+				2B3922991CD00C9300B4DFB6 /* cave-music.mp3 */,
+				2BCFE2F61CCBEC630073D4B6 /* CFRockAge-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2BCFE2F91CCBF3820073D4B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BAD07EE1CCBEA52005DF214 /* ViewController.swift */,
+				2BCFE2FD1CCBF3C70073D4B6 /* GameVC.swift */,
+				2B3922731CCD3CC600B4DFB6 /* StoreVC.swift */,
+				2B3922751CCD3CE600B4DFB6 /* RestartVC.swift */,
+				2B3922771CCD3D1000B4DFB6 /* BossVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2BCFE2FB1CCBF39E0073D4B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B39227D1CCD45D700B4DFB6 /* CAGradientLayer.swift */,
+				2B3922931CCDABDA00B4DFB6 /* CharacterImg.swift */,
+				2B39227B1CCD454500B4DFB6 /* CustomButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2BCFE2FC1CCBF3A50073D4B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B39227F1CCD87DF00B4DFB6 /* Game.swift */,
+				2B3922831CCD880A00B4DFB6 /* Player.swift */,
+				2B3922871CCD885B00B4DFB6 /* Golem.swift */,
+				2B3922891CCD886D00B4DFB6 /* Mouse.swift */,
+				2B39228B1CCD887B00B4DFB6 /* BlueSnail.swift */,
+				2B3922951CCDC81A00B4DFB6 /* PinkSnail.swift */,
+				2B39228D1CCD888700B4DFB6 /* Mole.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		71CA10992617EE0AFC2CF1A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				639C90B35BC3771E3751F0F6 /* Pods-Rawr 2.debug.xcconfig */,
+				756680429037323B16E1902C /* Pods-Rawr 2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DDC63AA8854C28EEC56C18E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BFE71B318A9FB7A2E516B11 /* Pods_Rawr_2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BAD07FB1CCBEA52005DF214 /* Build configuration list for PBXNativeTarget "Rawr 2" */;
 			buildPhases = (
+				AAD2DBC296031CA684473051 /* Check Pods Manifest.lock */,
 				2BAD07E51CCBEA52005DF214 /* Sources */,
 				2BAD07E61CCBEA52005DF214 /* Frameworks */,
 				2BAD07E71CCBEA52005DF214 /* Resources */,
+				E4D3A71E96E3A37A0872BF9E /* Embed Pods Frameworks */,
+				BEE7F62679283897F5873963 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,20 +248,90 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BAD07F71CCBEA52005DF214 /* LaunchScreen.storyboard in Resources */,
+				2B39229A1CD00C9300B4DFB6 /* cave-music.mp3 in Resources */,
+				2B3922AA1CD014A000B4DFB6 /* music_timpani_error_05.wav in Resources */,
+				2B3922A41CD0109D00B4DFB6 /* digi_welcome.wav in Resources */,
+				2BCFE2F71CCBEC630073D4B6 /* CFRockAge-Regular.ttf in Resources */,
+				2B3922A31CD0109D00B4DFB6 /* digi_warn.wav in Resources */,
+				2B3922A81CD012AD00B4DFB6 /* etc_trash_bin.wav in Resources */,
 				2BAD07F41CCBEA52005DF214 /* Assets.xcassets in Resources */,
+				2B3922AC1CD01A3F00B4DFB6 /* music_vibelong_chord_up.wav in Resources */,
+				2B3922AE1CD01A7400B4DFB6 /* pop_digi.wav in Resources */,
 				2BAD07F21CCBEA52005DF214 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAD2DBC296031CA684473051 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE7F62679283897F5873963 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rawr 2/Pods-Rawr 2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4D3A71E96E3A37A0872BF9E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rawr 2/Pods-Rawr 2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BAD07E51CCBEA52005DF214 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3922841CCD880A00B4DFB6 /* Player.swift in Sources */,
+				2B3922961CCDC81A00B4DFB6 /* PinkSnail.swift in Sources */,
+				2B39227C1CCD454500B4DFB6 /* CustomButton.swift in Sources */,
+				2B39228E1CCD888700B4DFB6 /* Mole.swift in Sources */,
+				2B3922881CCD885B00B4DFB6 /* Golem.swift in Sources */,
+				2B3922801CCD87DF00B4DFB6 /* Game.swift in Sources */,
+				2B3922761CCD3CE600B4DFB6 /* RestartVC.swift in Sources */,
 				2BAD07EF1CCBEA52005DF214 /* ViewController.swift in Sources */,
+				2BCFE2FE1CCBF3C70073D4B6 /* GameVC.swift in Sources */,
+				2B3922741CCD3CC600B4DFB6 /* StoreVC.swift in Sources */,
 				2BAD07ED1CCBEA52005DF214 /* AppDelegate.swift in Sources */,
+				2B39228A1CCD886D00B4DFB6 /* Mouse.swift in Sources */,
+				2B3922781CCD3D1000B4DFB6 /* BossVC.swift in Sources */,
+				2B3922941CCDABDA00B4DFB6 /* CharacterImg.swift in Sources */,
+				2B39227E1CCD45D700B4DFB6 /* CAGradientLayer.swift in Sources */,
+				2B39228C1CCD887B00B4DFB6 /* BlueSnail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +444,7 @@
 		};
 		2BAD07FC1CCBEA52005DF214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639C90B35BC3771E3751F0F6 /* Pods-Rawr 2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Rawr 2/Info.plist";
@@ -260,6 +456,7 @@
 		};
 		2BAD07FD1CCBEA52005DF214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756680429037323B16E1902C /* Pods-Rawr 2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Rawr 2/Info.plist";
@@ -288,6 +485,7 @@
 				2BAD07FD1CCBEA52005DF214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
